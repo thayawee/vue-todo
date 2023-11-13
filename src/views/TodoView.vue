@@ -169,7 +169,6 @@ const editTodo = (todo, index) => {
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  /* border: 2px solid white; */
   width: 500px;
 }
 
