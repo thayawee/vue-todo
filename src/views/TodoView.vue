@@ -106,9 +106,10 @@ const editTodo = (todo, index) => {
 
 .form-todo input {
   border-radius: 20px 0 0 20px;
-  border: 2px solid lightgray;
+  border: 2px solid white;
   padding: 10px 20px;
   width: 450px;
+  outline: none;
 }
 
 .form-todo input:focus {
@@ -118,17 +119,17 @@ const editTodo = (todo, index) => {
 
 .form-todo button {
   border-radius: 0 20px 20px 0;
-  border: 2px solid lightgray;
+  border: 2px solid white;
   border-left: none;
   padding: 10px 20px;
   cursor: pointer;
   font-weight: bold;
-  background: linear-gradient(45deg, #82e0aa 30%, #d5f5e3);
+  background: linear-gradient(45deg, #85c1e9 30%, #d6eaf8);
   color: black;
 }
 
 .form-todo button:hover {
-  background: linear-gradient(45deg, #d5f5e3 30%, #82e0aa);
+  background: linear-gradient(45deg, #d6eaf8 30%, #85c1e9);
   color: black;
 }
 
@@ -199,9 +200,10 @@ span {
 
 .todo input {
   border-radius: 20px 0 0 20px;
-  border: 2px solid lightgray;
+  border: 2px solid white;
   padding: 10px 20px;
   width: 360px;
+  outline: none;
 }
 
 .todo input:focus {
@@ -211,7 +213,7 @@ span {
 
 .todo button {
   border-radius: 0 20px 20px 0;
-  border: 2px solid lightgray;
+  border: 2px solid white;
   border-left: none;
   padding: 10px 20px;
   cursor: pointer;

@@ -43,10 +43,11 @@ const updateName = (event) => {
 input {
   border-radius: 50px;
   border-right: none;
-  border: 2px solid lightgray;
+  border: 2px solid white;
   padding: 10px 20px;
   width: 300px;
   font-size: 18px;
+  outline: none;
 }
 
 input:focus {
